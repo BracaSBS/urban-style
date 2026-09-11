@@ -1,0 +1,63 @@
+# ==========================================
+# URBAN STYLE
+# Java + Spring Boot + Maven + VS Code
+# ==========================================
+
+# Compilación Java
+*.class
+
+# Maven
+target/
+
+# Logs
+*.log
+logs/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/.nb-gradle/
+build/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos temporales
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Variables de entorno
+.env
+.env.*
+!.env.example
+
+# Configuraciones locales
+application-local.properties
+application-local.yml
+
+# Credenciales
+secrets/
+credentials/
+*.pem
+*.key
+
+# Bases de datos locales
+*.db
+*.sqlite
+*.sqlite3
